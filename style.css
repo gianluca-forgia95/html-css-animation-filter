@@ -128,7 +128,23 @@
 .ex-11-icon {
     font-size: 60px;
 }
-
+/* Transition/Animation ex11 */
+.ex-11-icon:hover {
+  animation-name: rotateless;
+  animation: rotateless 2s linear;
+}
+@keyframes rotateless {
+  0% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/* /Transition/Animation ex11 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
