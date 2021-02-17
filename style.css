@@ -87,6 +87,15 @@
   filter: grayscale(1) sepia(2);
 }
 /* /Transition/Animation ex7 */
+/* /Transition/Animation ex8 */
+.ex-8-img {
+  transition: border-radius 2s, filter 2s;
+}
+.ex-8-img:hover {
+  filter: grayscale(0.5) sepia(0.8);
+  border-radius: 20px;
+}
+/* /Transition/Animation ex8 */
 
 .ex-9-img {
     margin: 50px 100px;
