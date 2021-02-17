@@ -174,3 +174,35 @@
     width: 60px;
     height: 20px;
 }
+/* Transition/Animation ex12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: spacewhitetop ;
+  animation: spacewhitetop 3s linear infinite;
+}
+@keyframes spacewhitetop {
+  0% {
+    left: 15%;
+  }
+  50% {
+    left: calc(100% - 60px);
+  }
+  100% {
+    left: 15%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: spacewhitebottom;
+  animation: spacewhitebottom 3s linear infinite;
+}
+@keyframes spacewhitebottom {
+  0% {
+    right: 15%;
+  }
+  50% {
+    right: calc(100% - 60px);
+  }
+  100% {
+    right: 15%;
+  }
+}
+/* /Transition/Animation ex12 */
