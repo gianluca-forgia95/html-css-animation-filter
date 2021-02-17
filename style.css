@@ -10,10 +10,18 @@
 .ex-1-square:hover {
   background: red;
 }
+/* /Transition/Animation ex1 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+}
+/* Transition/Animation ex2 */
+.ex-2-square {
+  transition: width  3s;
+}
+.ex-2-square:active {
+  width: 100%;
 }
 .ex-3-square {
     width: 100px;
