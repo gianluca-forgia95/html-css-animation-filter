@@ -206,3 +206,65 @@
   }
 }
 /* /Transition/Animation ex12 */
+/* Transition/Animation ex13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: spacewhitetopcomplete;
+  animation: spacewhitetopcomplete 1s linear infinite;
+}
+@keyframes spacewhitetopcomplete {
+  0% {
+   left: 10%;
+   top: -20px;
+  }
+  25% {
+  left: calc(100% - 30px);
+  top: -20px;
+  }
+  50% {
+  left: calc(100% - 30px);
+  top: 100%;
+  }
+  75% {
+  left: 0;
+  top: 100%;
+  }
+  90% {
+  left: -15px;
+  top: -20px;
+  }
+  100% {
+  left: 10%;
+  top: -20px;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: spacewhitebottomcomplete;
+  animation: spacewhitebottomcomplete 1s linear infinite;
+}
+@keyframes spacewhitebottomcomplete {
+  0% {
+  right: 10%;
+  bottom: -20px;
+  }
+  25% {
+  right: calc(100% - 30px);
+  bottom: -20px;
+  }
+  50% {
+  right: calc(100% - 30px);
+  bottom: 100%;
+  }
+  75% {
+  right: 0;
+  bottom: 100%;
+  }
+  90% {
+  right: -15px;
+  bottom: -20px;
+  }
+  100% {
+  right: 10%;
+  bottom: -20px;
+  }
+}
+/* /Transition/Animation ex13 */
